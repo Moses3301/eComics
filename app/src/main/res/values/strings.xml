@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">eComics</string>
+    <string name="e_shopping">eShopping</string>
+    <string name="create_account">Create Account</string>
+    <string name="or">Or</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="id">Id</string>
+    <string name="phone">Phone</string>
+
+    <string name="email_validation_message">Please enter your email address in the format someone@example.com.</string>
+    <string name="authentication_failed">Authentication Failed.</string>
+    <string name="password_validation_message">Please enter 6 or more characters with a mix of letters and numbers.</string>
+    <string name="please_enter_password">Please enter password.</string>
+    <string name="please_enter_email">Please enter email.</string>
+    <string name="wrong_password">Wrong Password.</string>
+    <string name="email_already_exists">Email already exists.</string>
+    <string name="email_not_found">Email not found, you can create new account.</string>
+    <string name="email_in_use">This email is already associated with a different user account.</string>
+    <string name="user_not_found">This email is NOT exists.</string>
+
+    <string name="facebook_app_id">355090978582760</string>
+    <string name="fb_login_protocol_scheme">fb355090978582760</string>
+    <string name="forgot_email">Forgot email?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_pass_step_one">Open the confirmation email.</string>
+    <string name="reset_pass_step_two">Change your password.</string>
+    <string name="reset_pass_three">Sign In with the new password.</string>
+    <string name="click_reset_password">Click reset password</string>
+    <string name="click_to_get_email">Click to get  confirmation email</string>
+    <string name="done_reset">Ready to sign in agian</string>
+    <string name="as_a_gust">Sign in as a gust</string>
+    <string name="by">by</string>
+    <string name="play">Play</string>
+    <string name="clip">Clip</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_book_details">BookDetailsActivity</string>
+    <string name="art">Art</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="write_what_you_think">Wirte what you think...</string>
+    <string name="submit">Submit</string>
+    <string name="find">Find</string>
+    <string name="my_books">My Books</string>
+    <string name="sort_by">Sort By </string>
+    <string name="know_you">New hero in town!\nLet us know you</string>
+    <string name="birth_year">Birth year</string>
+    <string name="continuee">Continue</string>
+
+    <string-array name="sorting_options">
+        <item>all</item>
+        <item>publisher</item>
+        <item>title</item>
+        <item>genere</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="location_options">
+        <item>Location</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="genre_options">
+        <item>Favorite Genre</item>
+        <item>Super Heroes</item>
+        <item>Horror</item>
+        <item>Romance</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Crime</item>
+        <item>Sci-Fi</item>
+        <item>Action</item>
+    </string-array>
+
+</resources>

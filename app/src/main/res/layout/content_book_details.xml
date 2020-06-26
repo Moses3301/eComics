@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BookDetailsActivity"
+    tools:showIn="@layout/activity_book_details">
+
+    <ImageView
+        android:id="@+id/coverImageView"
+        android:layout_width="144dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:srcCompat="@drawable/cover" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="[title title title # 7]"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/writerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="[Writer]"
+        app:layout_constraintBottom_toBottomOf="@+id/byTextView"
+        app:layout_constraintStart_toEndOf="@+id/byTextView"
+        app:layout_constraintTop_toTopOf="@+id/byTextView" />
+
+    <TextView
+        android:id="@+id/byTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/by"
+        app:layout_constraintBottom_toBottomOf="@+id/coverImageView"
+        app:layout_constraintStart_toEndOf="@+id/coverImageView"
+        app:layout_constraintTop_toTopOf="@+id/coverImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/artTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/art"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView"
+        app:layout_constraintStart_toEndOf="@+id/coverImageView"
+        app:layout_constraintTop_toBottomOf="@+id/byTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="205dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/coverImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/coverImageView"
+        app:layout_constraintTop_toTopOf="@+id/coverImageView"
+        app:layout_constraintVertical_bias="0.542">
+
+        <TextView
+            android:id="@+id/summeryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[text text text text text text texttext text text text text text text text text text  text texttexttexttext text text text texttexttexttext texttext texttexttexttext]"
+            tools:layout_editor_absoluteX="186dp"
+            tools:layout_editor_absoluteY="77dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/payReadButton"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/coverImageView"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        tools:text="[x.x$]" />
+
+    <TextView
+        android:id="@+id/artistTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="[Artist]"
+        app:layout_constraintBottom_toBottomOf="@+id/artTextView"
+        app:layout_constraintStart_toEndOf="@+id/artTextView"
+        app:layout_constraintTop_toBottomOf="@+id/byTextView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/publisherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[publisher]"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/coverImageView"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="@+id/coverImageView"
+        app:layout_constraintTop_toBottomOf="@+id/coverImageView" />
+
+    <TextView
+        android:id="@+id/genereTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="[genere] "
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/payReadButton"
+        app:layout_constraintTop_toBottomOf="@+id/payReadButton" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/publisherTextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/publisherTextView"
+        app:layout_constraintTop_toBottomOf="@+id/publisherTextView" />
+
+    <TextView
+        android:id="@+id/rateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingBar"
+        app:layout_constraintStart_toEndOf="@+id/ratingBar"
+        app:layout_constraintTop_toTopOf="@+id/ratingBar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/books_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rateTextView"
+        app:layout_constraintVertical_bias="0.0"></android.support.v7.widget.RecyclerView>
+</android.support.constraint.ConstraintLayout>

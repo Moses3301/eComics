@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "242054244806",
+    "firebase_url": "https://eshopping-fe847.firebaseio.com",
+    "project_id": "eshopping-fe847",
+    "storage_bucket": "eshopping-fe847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242054244806:android:9157d8399d835e10",
+        "android_client_info": {
+          "package_name": "com.example.moses.eshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242054244806-4fccgstmacb8gs3m9rcirqg6ipqr0pgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moses.eshopping",
+            "certificate_hash": "f1e96544f1f2ddc96a6a051a29614fa4d520cf79"
+          }
+        },
+        {
+          "client_id": "242054244806-lqfk6bkbjvp4ggihsup58bmlj0nq9suh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moses.eshopping",
+            "certificate_hash": "886ba03b3aac93133e375d8bd336eb0965c4ad54"
+          }
+        },
+        {
+          "client_id": "242054244806-667nm1lvu3ps82jknkbmbgkf74eohrli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDusXR_qFb955KypgHTiNYxqcC5Frwyx4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242054244806-667nm1lvu3ps82jknkbmbgkf74eohrli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242054244806:android:9abc66e6b68a13f9",
+        "android_client_info": {
+          "package_name": "com.example.moses.fba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242054244806-1seovlo817fdn3eckdjgrhhefg7e07c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moses.fba",
+            "certificate_hash": "f1e96544f1f2ddc96a6a051a29614fa4d520cf79"
+          }
+        },
+        {
+          "client_id": "242054244806-667nm1lvu3ps82jknkbmbgkf74eohrli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDusXR_qFb955KypgHTiNYxqcC5Frwyx4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242054244806-667nm1lvu3ps82jknkbmbgkf74eohrli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
